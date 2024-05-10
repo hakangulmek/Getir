@@ -14,7 +14,7 @@ function Campains() {
   };
   return (
     <div className="container mx-auto ">
-      <h3 className="text-sm font-semibold mb-3">Kampanyalar</h3>
+      <h3 className="text-sm font-semibold mb-3">Kampanyalars</h3>
       <Slider className="-mx-2" {...settings}>
         {Banners.length &&
           Banners.map((banner, index) => (
